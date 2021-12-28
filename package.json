@@ -1,0 +1,13 @@
+{
+  "name": "markup-css-practice",
+  "version": "1.0.0",
+  "description": "먹태로때림",
+  "scripts": {
+    "test": "parcel index.html"
+  },
+  "author": "shkang@virnect.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1"
+  }
+}
