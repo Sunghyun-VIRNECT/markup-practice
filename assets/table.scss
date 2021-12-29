@@ -1,0 +1,33 @@
+html, body, .container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  overflow-y: scroll;
+  // height: 100%;
+  > div {
+    display: table;
+    margin: auto;
+    > div{
+      display: table-cell;
+      vertical-align: middle;
+      background: #ccc;
+    }
+  }
+}
+
+div {
+  display: block;
+  position: relative;
+}
