@@ -1,0 +1,37 @@
+div {
+    text-align: center;
+}
+
+button {
+    background: #ccc;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.limit {
+    width: 500px;
+    height: 150px;
+}
+
+.un-limit {
+    padding: 60px 40px;
+    margin-top: 20px;
+}
+
+.wrapper {
+    padding: 20px;
+    background: #ccc;
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.ellipsis {
+    text-align: left;
+    height: 6rem;
+    line-height: 2rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+}
